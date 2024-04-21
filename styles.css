@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(252, 157, 131);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: '', cursive;
+    margin: 35px auto 20px;
+    color: #333; /* Change the text color */
+}
+
+hr {
+    border-top: 2px solid black;
+    width: 40%;
+    margin-bottom: 55px;
+}
+
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+label {
+    font-size: 20px;
+    color: white; /* Change label text color */
+}
+
+.btn {
+    width: 200px;
+    background-color: #007BFF; /* Change button background color */
+    border-color: #007BFF; /* Change button border color */
+    color: white; /* Change button text color */
+}
+
+#finalAmount {
+    font-family: 'Lobster', cursive;
+    display: none;
+    margin: 50px auto;
+}
+
+#finalAmount h2 {
+    font-size: 50px;
+    color: #333; /* Change text color */
+}
+
+.finalValue {
+    font-family: 'Amiri', serif;
+    color: green; /* Change text color */
+}
+
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+
+    hr {
+        width: 75%;
+    }
+
+    #finalAmount h2,
+    .finalValue {
+        font-size: 40px;
+    }
+}
